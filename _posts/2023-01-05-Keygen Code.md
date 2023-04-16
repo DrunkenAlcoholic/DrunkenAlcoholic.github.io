@@ -478,7 +478,7 @@ begin
   //Create last part of serial from Modded MD5 Result
   for i := 0 to Pred(Length(sModedMD5)) do
   begin
-    if ((i &gt; 0) and (i &lt; Pred(Length(sModedMD5)))) then
+    if ((i > 0) and (i < Pred(Length(sModedMD5)))) then
       if i mod 4 = 0 then
         sLastPart := sLastPart + '-';
     sLastPart := sLastPart + sModedMD5[i + 1];
