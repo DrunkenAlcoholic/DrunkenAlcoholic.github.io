@@ -2,8 +2,8 @@
 layout: post
 title: "Updates"
 date: 2025-07-22 10:00:00 +0800
-categories: blog updates
-tags: [updates, blogging, programming, nim, python]
+categories: [Main, Blog]
+tags: [blog, main, page, updates]
 ---
 
 # Updates
