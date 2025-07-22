@@ -2,7 +2,7 @@
 layout: post
 title: "Updates"
 date: 2025-07-22 10:00:00 +0800
-categories: [Main, Blog]
+categories: [Blog, Posts]
 tags: [blog, main, page, updates]
 ---
 

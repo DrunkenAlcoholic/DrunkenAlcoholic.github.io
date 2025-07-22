@@ -1,7 +1,7 @@
 ---
 title: "[Delphi] Assorted Keygens"
 date: 2023-01-05 12:00:00 +0800
-categories: [Main, Code, Delphi]
+categories: [Code, Delphi]
 tags: [software, keygen, code, delphi]
 ---
 

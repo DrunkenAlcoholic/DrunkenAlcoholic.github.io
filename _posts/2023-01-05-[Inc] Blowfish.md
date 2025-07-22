@@ -1,7 +1,7 @@
 ---
 title: "[Inc] Blowfish"
 date: 2023-01-05 12:00:00 +0800
-categories: [Main, Code, Delphi, Inc]
+categories: [Code, Delphi, Inc]
 tags: [blowfish, inc, code, delphi]
 ---
 

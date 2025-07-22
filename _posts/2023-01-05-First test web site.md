@@ -1,7 +1,7 @@
 ---
 title: "Welcome"
 date: 2023-01-05 12:00:00 +0800
-categories: [Main, Blog]
+categories: [Blog, Posts]
 tags: [blog, main, page]
 ---
 

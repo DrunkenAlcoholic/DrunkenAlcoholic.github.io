@@ -1,7 +1,7 @@
 ---
 title: "[C#] Paltalk Password Decryptrion"
 date: 2023-01-05 12:00:00 +0800
-categories: [Main, Code, C#]
+categories: [Code, C#]
 tags: [paltalk, decrypt, code, c#]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "[Doc] Beyluxe Password Encryption Description"
 date: 2023-01-05 12:00:00 +0800
-categories: [Main, Code, Docs]
+categories: [Blog, Posts]
 tags: [decryption, encryption, beyluxe, code, doc]
 ---
 
