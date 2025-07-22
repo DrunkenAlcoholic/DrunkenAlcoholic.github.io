@@ -1,12 +1,12 @@
 ---
 title: "[Delphi] Vigenere - Caesar"
 date: 2023-01-05 12:00:00 +0800
-categories: [Code, Delphi]
+categories: [Main, Code, Delphi]
 tags: [decryption, vigenere, caesar, code, delphi]
 ---
 
-
 ## Caesar Cipher
+
 ---
 
 ```pascal
@@ -51,8 +51,8 @@ begin
 end;
 ```
 
-
 ## Vigener Cipher
+
 ---
 
 ```pascal

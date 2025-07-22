@@ -1,14 +1,15 @@
 ---
 title: "[Delphi] Assorted Keygens"
 date: 2023-01-05 12:00:00 +0800
-categories: [Code, Delphi]
+categories: [Main, Code, Delphi]
 tags: [software, keygen, code, delphi]
 ---
 
+## Nidesoft Products
 
-##  Nidesoft Products
 ---
->Uses Blowfish encryption but with an easy implementation… fun to keygen but the Author uses the same method for all of there 74 products, Meaning you only need to change the Product name to make a valid serial with this keygen.
+
+> Uses Blowfish encryption but with an easy implementation… fun to keygen but the Author uses the same method for all of there 74 products, Meaning you only need to change the Product name to make a valid serial with this keygen.
 
 you will need the blowfish unit [[[Inc] Blowfish]]
 
@@ -53,12 +54,11 @@ begin
 end;
 ```
 
-
 ## Adrosoft Products
+
 ---
->Interesting to keygen as some of there products use images and from that it will get byte values based on X and Y coords
 
-
+> Interesting to keygen as some of there products use images and from that it will get byte values based on X and Y coords
 
 ```pascal
 var
@@ -231,12 +231,11 @@ begin
 end;
 ```
 
-
-
 ## mIRC
----
-> While generating a serial using this will provide a valid key, you either have to patch the phone home checks, or add the mIRC register server to your host file
 
+---
+
+> While generating a serial using this will provide a valid key, you either have to patch the phone home checks, or add the mIRC register server to your host file
 
 ```pascal
 function Generate(const szName: string): string;
@@ -266,10 +265,10 @@ begin
 end;
 ```
 
-#Delphi #Code #Keygen 
-
+#Delphi #Code #Keygen
 
 ## Sentry 3
+
 ---
 
 ```pascal
@@ -352,11 +351,9 @@ end;
 end.
 ```
 
-
-
 ## MalwareBytes
----
 
+---
 
 ```pascal
 uses
@@ -392,12 +389,11 @@ begin
 end;
 ```
 
-
-
 ## WinASO Products
----
->Very easy products to keygem if starting from WinASO Disk Cleaner, As all there other products are based on this idea but slight variations, basic math to defeat WinASo Disk Cleaner, it idiv the sum of given part of serial with a constant value, if there is any remainder it will fail to register, so to defeat this wee find out what does multiply into these constants without going over the the max value(9999). the only part that is not calculated is the first poart of serial which can be anything from 0000…9999 (4 digits) the sum of second parts is idiv with constant 19, Sum of third part is idiv with 511, sum of Last part is idiv with 177. Also note that on newer products the position of each value is placed differently, and then in the “prized” software WinASO Registry Optimizer it also has a internet check. below is source for the basic Disk Cleaner. Hence the reason the code is setup to copy positions of each part of the serial, while not needed for Disk Cleaner, WinASO Easy Tweak is different positions.
 
+---
+
+> Very easy products to keygem if starting from WinASO Disk Cleaner, As all there other products are based on this idea but slight variations, basic math to defeat WinASo Disk Cleaner, it idiv the sum of given part of serial with a constant value, if there is any remainder it will fail to register, so to defeat this wee find out what does multiply into these constants without going over the the max value(9999). the only part that is not calculated is the first poart of serial which can be anything from 0000…9999 (4 digits) the sum of second parts is idiv with constant 19, Sum of third part is idiv with 511, sum of Last part is idiv with 177. Also note that on newer products the position of each value is placed differently, and then in the “prized” software WinASO Registry Optimizer it also has a internet check. below is source for the basic Disk Cleaner. Hence the reason the code is setup to copy positions of each part of the serial, while not needed for Disk Cleaner, WinASO Easy Tweak is different positions.
 
 ```pascal
 procedure TForm1.btnGenerateClick(Sender: TObject);
@@ -420,20 +416,20 @@ begin
 end;
 ```
 
-
-
 ## Xilisoft Products
+
 ---
->Xilisoft is very easy once you find how they are generating a valid serial, basically it does the following…
+
+> Xilisoft is very easy once you find how they are generating a valid serial, basically it does the following…
 >
->-  must be equal or greater than $27 chars(39 decimal)  
->- must only contain chars A..F and 0..9 in other words hex format…..  
->- it takes the first part of the serial and prefixes the product name at the begining followed by 2 0′s  
->- it then take every second char and replaces it with position byte value, for example if the producted was called “xilisoftblah” it would produce “x#1l#2s#3f#4b#5a#6″ ect.. ect…  
->- it also prefixes “1″ at the very begining  
->- it then appends the product name at the very end  
->- it creates a MD5 hash of concated prefix, first part of serial, appended product name.  
->- takes this MD5 result and uses every second char for second part of serial with inserted “-”
+> - must be equal or greater than $27 chars(39 decimal)
+> - must only contain chars A..F and 0..9 in other words hex format…..
+> - it takes the first part of the serial and prefixes the product name at the begining followed by 2 0′s
+> - it then take every second char and replaces it with position byte value, for example if the producted was called “xilisoftblah” it would produce “x#1l#2s#3f#4b#5a#6″ ect.. ect…
+> - it also prefixes “1″ at the very begining
+> - it then appends the product name at the very end
+> - it creates a MD5 hash of concated prefix, first part of serial, appended product name.
+> - takes this MD5 result and uses every second char for second part of serial with inserted “-”
 
 ```pascal
 var
@@ -488,5 +484,3 @@ begin
   mSerial.Text := sRept + sRan + Trim(sLastPart);
 end;
 ```
-
-

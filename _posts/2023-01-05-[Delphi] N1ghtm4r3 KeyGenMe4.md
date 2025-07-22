@@ -1,10 +1,9 @@
 ---
 title: "[Delphi] Nightm4r3 KeyGenMe4"
 date: 2023-01-05 12:00:00 +0800
-categories: [Code, Delphi]
+categories: [Main, Code, Delphi]
 tags: [keygen, decrypt, code, delphi]
 ---
-
 
 ```pascal
 const

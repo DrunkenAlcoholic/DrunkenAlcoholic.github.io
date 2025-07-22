@@ -1,10 +1,9 @@
 ---
 title: "[Doc] Paltalk Registry Password Decryption"
 date: 2023-01-05 12:00:00 +0800
-categories: [Code, Docs]
+categories: [Main, Code, Docs]
 tags: [decryption, encryption, paltalk, registry, code, doc]
 ---
-
 
 String1 = 1 charactor from username and 1 charactor from HD serial
 
@@ -150,23 +149,11 @@ well I was  checking with different nicknames that use the password 123456 an
 
 Now if you have a password “123456″ then
 
-Position    Paltalk     Your password       Result       Final
-    1.           241     +        1    =     242    +   RandomNumber
-    2.           287     +        2    =     289    +   RandomNumber
-    3.           302     +        3    =     305    +   RandomNumber
-    4.           303     +        4    =     307    +   RandomNumber
-    5.           307     +        5    =     312    +   RandomNumber
-    6.           324     +        6    =     330    +   RandomNumber
+Position Paltalk Your password Result Final 1. 241 + 1 = 242 + RandomNumber 2. 287 + 2 = 289 + RandomNumber 3. 302 + 3 = 305 + RandomNumber 4. 303 + 4 = 307 + RandomNumber 5. 307 + 5 = 312 + RandomNumber 6. 324 + 6 = 330 + RandomNumber
 
 Or lets say you had a password with “476987″
 
-Position    Paltalk     Your password       Result       Final
-    1.           241     +        4    =     245    +   RandomNumber
-    2.           287     +        7    =     294    +   RandomNumber
-    3.           302     +        6    =     308    +   RandomNumber
-    4.           303     +        9    =     312    +   RandomNumber
-    5.           307     +        8    =     315    +   RandomNumber
-    6.           324     +        7    =     331    +   RandomNumber
+Position Paltalk Your password Result Final 1. 241 + 4 = 245 + RandomNumber 2. 287 + 7 = 294 + RandomNumber 3. 302 + 6 = 308 + RandomNumber 4. 303 + 9 = 312 + RandomNumber 5. 307 + 8 = 315 + RandomNumber 6. 324 + 7 = 331 + RandomNumber
 
 Test it for your self, make a new nick with a password “476987″ and see if you get the same result ![;)](https://web.archive.org/web/20120625140306im_/http://www.cheesydoodle.com/wp-includes/images/smilies/icon_wink.gif)
 
@@ -236,15 +223,8 @@ Example if I had a password called “cunix1″ the value you need to add to the
 
 so going by our paltalk magic numbers…
 
-Position    Paltalk     Your password       Result       Final
-    1.           241     +        51    =     292    +   RandomNumber
-    2.           287     +        69    =     356    +   RandomNumber
-    3.           302     +        62    =     364    +   RandomNumber
-    4.           303     +        57    =     360    +   RandomNumber
-    5.           307     +        72    =     379    +   RandomNumber
-    6.           324     +        1     =     325    +   RandomNumber
+Position Paltalk Your password Result Final 1. 241 + 51 = 292 + RandomNumber 2. 287 + 69 = 356 + RandomNumber 3. 302 + 62 = 364 + RandomNumber 4. 303 + 57 = 360 + RandomNumber 5. 307 + 72 = 379 + RandomNumber 6. 324 + 1 = 325 + RandomNumber
 
 X = Random Number
 
 your encrypted password = 292X356X364X360X379X325X
-

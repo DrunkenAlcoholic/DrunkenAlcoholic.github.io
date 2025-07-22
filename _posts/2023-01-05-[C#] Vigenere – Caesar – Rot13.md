@@ -1,11 +1,9 @@
 ---
 title: "[C#] Vigenere - Caesar - Rot13"
 date: 2023-01-05 12:00:00 +0800
-categories: [Code, C#]
+categories: [Main, Code, C#]
 tags: [vigenere, rot13, decrypt, code, c#]
 ---
-
-
 
 ```c#
 using System;

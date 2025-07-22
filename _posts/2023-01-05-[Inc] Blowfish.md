@@ -1,14 +1,14 @@
 ---
 title: "[Inc] Blowfish"
 date: 2023-01-05 12:00:00 +0800
-categories: [Code, Delphi, Inc]
+categories: [Main, Code, Delphi, Inc]
 tags: [blowfish, inc, code, delphi]
 ---
 
-
 usage: [[Keygen Code]]
 
-#Delphi #Code #Unit 
+#Delphi #Code #Unit
+
 ```pascal
 //BF_Int.Inc
 const
@@ -212,7 +212,7 @@ unit Blowfish;
   mailto:budskman [at] yahoo [dot] com
   http://www.bimacipta.com/
 
-  1998.04.17 written by Budi Sukmawan 
+  1998.04.17 written by Budi Sukmawan
   1999.03.25 Add ECB, CBC, CTS, CFB, OFB routine.
   1999.11.06 Change Setup key routine.
              Fix CBC, CBC CTS, CFB, OFB routine.
@@ -740,5 +740,3 @@ end;
 
 end.
 ```
-
-

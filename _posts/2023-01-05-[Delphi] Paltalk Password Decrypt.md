@@ -1,10 +1,9 @@
 ---
 title: "[Delphi] Paltalk Password Decryption"
 date: 2023-01-05 12:00:00 +0800
-categories: [Code, Delphi]
+categories: [Main, Code, Delphi]
 tags: [decryption, paltalk, code, delphi]
 ---
-
 
 ```pascal
 Function Decrypt(sNickName, sHwID, sCrypted: String): String;
@@ -49,8 +48,7 @@ begin
 end;
 ```
 
-
->Example
+> Example
 
 ```pascal
 function FindNickPass(const sNickname: String): String;

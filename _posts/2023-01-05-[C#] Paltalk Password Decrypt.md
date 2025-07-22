@@ -1,10 +1,9 @@
 ---
 title: "[C#] Paltalk Password Decryptrion"
 date: 2023-01-05 12:00:00 +0800
-categories: [Code, C#]
+categories: [Main, Code, C#]
 tags: [paltalk, decrypt, code, c#]
 ---
-
 
 ```c#
         //Convert to Ordinal Value
@@ -24,7 +23,7 @@ tags: [paltalk, decrypt, code, c#]
             //Check to make sure it divides into 4
             if (iLength % 4 != 0)
             {
-                return "Incorrect encrypted password";     
+                return "Incorrect encrypted password";
             }
             //Concatenate Nickname & HwId
             for (int i = 0; i <= 7; i++)
