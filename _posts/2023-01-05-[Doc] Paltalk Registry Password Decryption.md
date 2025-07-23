@@ -1,4 +1,7 @@
 ---
+layout: post
+canonical_url: https://www.cheesydoodle.com
+toc: true
 title: "[Doc] Paltalk Registry Password Decryption"
 date: 2023-01-05 12:00:00 +0800
 categories: [Blog, Posts]
@@ -228,3 +231,5 @@ Position Paltalk Your password Result Final 1. 241 + 51 = 292 + RandomNumber 2. 
 X = Random Number
 
 your encrypted password = 292X356X364X360X379X325X
+
+If you're interested in more code like this, feel free to explore the rest of the blog at [cheesydoodle.com](https://www.cheesydoodle.com).

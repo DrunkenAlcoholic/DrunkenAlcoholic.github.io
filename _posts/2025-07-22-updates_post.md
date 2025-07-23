@@ -1,5 +1,8 @@
 ---
 layout: post
+canonical_url: https://www.cheesydoodle.com
+toc: true
+layout: post
 title: "Updates"
 date: 2025-07-22 10:00:00 +0800
 categories: [Blog, Posts]

@@ -1,4 +1,7 @@
 ---
+layout: post
+canonical_url: https://www.cheesydoodle.com
+toc: true
 title: "[Delphi] AntiVMWare"
 date: 2023-01-05 12:00:00 +0800
 categories: [Code, Delphi]
@@ -40,3 +43,5 @@ if AntiVMware then
   else
   MessageBox(0, 'No VMware Instance Detected', 'No VMware Detected', +MB_OK +MB_ICONINFORMATION);
 ```
+
+If you're interested in more code like this, feel free to explore the rest of the blog at [cheesydoodle.com](https://www.cheesydoodle.com).
