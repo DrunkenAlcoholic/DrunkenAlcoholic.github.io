@@ -1,8 +1,8 @@
 ---
-title: "nim_launcher — A Fast and Minimal Linux App Launcher in Nim"
+title: "[Doc] Nim Launcher — A Fast and Minimal Linux App Launcher in Nim"
 date: 2025-07-24
 tags: [nim, linux, x11, rofi-alternative, launcher, wayland, xwayland]
-categories: [projects, linux, development]
+categories: [Blog, Posts]
 layout: post
 toc: true
 comments: true
@@ -48,7 +48,7 @@ You’ll need:
 Then:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/DrunkenAlcoholic/nim_launcher.git
 cd nim_launcher
 nimble install x11
 nim compile -d:release src/nim_launcher.nim
@@ -80,16 +80,24 @@ Everything from colors to layout can be tweaked there. A few highlights:
 ```ini
 [window]
 width = 600
-center = true
 max_visible_items = 10
+center = true
+position_x = 500
+position_y = 50
+vertical_align = "one-third"
 
 [colors]
-background = "#2E3440"
-foreground = "#D8DEE9"
-highlight_background = "#88C0D0"
+background = "#1e1e2e"
+foreground = "#b594dc"
+highlight_background = "#3f5174"
+highlight_foreground = "#28c3a5"
+border_color = "#b594dc"
+
+[border]
+width = 2
 
 [input]
-prompt = "> "
+prompt = ">> "
 cursor = "_"
 ```
 
