@@ -1,11 +1,12 @@
 ---
-title: "[Doc] Nim Launcher — A Fast and Minimal Linux App Launcher in Nim"
-date: 2025-07-24
-tags: [nim, linux, x11, rofi-alternative, launcher, wayland, xwayland]
-categories: [Blog, Posts]
 layout: post
+canonical_url: https://www.cheesydoodle.com
 toc: true
-comments: true
+title: "[Doc] Nim Launcher — A Fast and Minimal Linux App Launcher in Nim"
+date: 2025-07-24 03:51:09
+categories: [Blog, Posts]
+tags: [nim, linux, x11, rofi-alternative, launcher, wayland, xwayland]
+description: "Nim Launcher — A Fast and Minimal Linux App Launcher in Nim"
 ---
 
 ![nim_launcher Screenshot](/assets/images/nim_launcher_dracula.png)
